@@ -13,12 +13,12 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="nav-logo">Subikson M</div>
       <ul className="nav-links">
-        <li><a onClick={() => scrollToSection('home')}>Home</a></li>
-        <li><a onClick={() => scrollToSection('about')}>About</a></li>
-        <li><a onClick={() => scrollToSection('skills')}>Skills</a></li>
-        <li><a onClick={() => scrollToSection('projects')}>Projects</a></li>
-        <li><a onClick={() => scrollToSection('contact')}>Contact</a></li>
-        <li><a onClick={() => scrollToSection('resume')}>Resume</a></li>
+        <li><button onClick={() => scrollToSection('home')}>Home</button></li>
+        <li><button onClick={() => scrollToSection('about')}>About</button></li>
+        <li><button onClick={() => scrollToSection('skills')}>Skills</button></li>
+        <li><button onClick={() => scrollToSection('projects')}>Projects</button></li>
+        <li><button onClick={() => scrollToSection('contact')}>Contact</button></li>
+        <li><button onClick={() => scrollToSection('resume')}>Resume</button></li>
       </ul>
     </nav>
   );
