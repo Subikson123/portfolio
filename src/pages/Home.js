@@ -47,7 +47,7 @@ const Home = () => {
 
         <div className="hero-copy">
           <span className="hero-subtitle">WELCOME</span>
-          <h1>Hi, I'm Subikson M.</h1>
+          <h1>Hiii, I'm Subikson M.</h1>
           <p className="hero-description">
             A Motivated Computer Science Engineering student with a steady base in programming, web development, and
             problem-solving. I enjoy learning new tools and building simple, useful solutions that make a real impact.
