@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import './ScrollIndicator.css';
 
+const sections = ['home', 'about', 'skills', 'projects', 'contact', 'resume'];
+
 const ScrollIndicator = () => {
   const [activeSection, setActiveSection] = useState('home');
-  const sections = ['home', 'about', 'skills', 'projects', 'contact', 'resume'];
 
   useEffect(() => {
     const handleScroll = () => {
